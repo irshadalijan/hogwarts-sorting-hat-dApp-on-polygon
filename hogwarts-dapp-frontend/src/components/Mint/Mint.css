@@ -1,0 +1,46 @@
+.form {
+    justify-content: center;
+    align-items: baseline;
+  }
+  
+
+  .input-box {
+    font-family: 'Cinzel', serif;
+    font-size: 20px;
+    border: none;
+    background-color: #f4e9d8;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    outline: none;
+  }
+  
+  .input-box:focus {
+    border-bottom: 2px solid #000000;
+  }
+  
+  .input-box::placeholder {
+    color: #7f7f7f;
+    opacity: 0.8;
+  }
+  
+  .start-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .start-button:hover {
+    background-color: #45a049;
+  }
+  
+
+.form-button {
+    margin-left: 5px;
+    align-self: flex-end; /* To align it with the bottom border of the input */
+    font-size: 20px;  /* match the font-size with input-box */
+    padding: 15px 20px;  /* match the padding with input-box */
+  }
+  
